@@ -19,7 +19,7 @@ btnRandom.onclick = async () => {
   if ((users[0].gender = "male")) {
     sec.innerText = "👨";
   } else if ((users[0].gender = "female")) {
-    ec.innerText = "👩";
+    sec.innerText = "👩";
   }
   pic.src = users[0].picture.large;
   email.innerText = users[0].email;
